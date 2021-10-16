@@ -1,0 +1,14 @@
+%start S
+
+S[SEM=<EstMort(?vp)>] -> VP[SEM=?vp]
+VP[SEM=?n] -> N[SEM=?n] V AD
+N[SEM=?np] -> Nprop[SEM=?np]
+V -> 'est'
+AD -> 'mort' | 'morte'
+
+Nprop[SEM=<Rose>] -> 'Rose'
+Nprop[SEM=<Violet>] -> 'Violet'
+Nprop[SEM=<Pervenche>] -> 'Pervenche'
+Nprop[SEM=<Olive>] -> 'Olive'
+Nprop[SEM=<Moutarde>] -> 'Moutarde'
+Nprop[SEM=<Leblanc>] -> 'Leblanc'
